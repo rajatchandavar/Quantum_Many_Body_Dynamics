@@ -5,7 +5,7 @@ $$
   \hat{H} = -J \sum_{j=1}^{N-1} (\hat{\sigma} _{j}^{x} \hat{\sigma} _{j+1}^{x} + \hat{\sigma} _{j}^{y} \hat{\sigma} _{j+1}^{y}) + U \sum _{j=1}^{N-1} \hat{\sigma} _{j}^{z} \hat{\sigma} _{j+1}^{z} + \sum _{j=1}^{N} h_j\hat{\sigma} _{j}^{z}
 $$
 
-The work is based on this brilliant [Paper](https://www.nature.com/articles/s41534-019-0217-0)
+This project was done as part of Seminar: Advanced Topics of Quantum Computing at TU Munich, Germany and is based on this brilliant [Paper](https://www.nature.com/articles/s41534-019-0217-0)
 
 # Requirements
 The project uses the Qiskit framework for implementing the quantum circuits. Complete list of software requirements can be found in `requirements.txt`. 
@@ -24,7 +24,7 @@ The complete implementation is included in the python notebook `simulating_quant
 4. **XX Chain** - XX chain corresponds to a simplified hamiltoninan where h = 0 and U = 0. Evolution of local magnetization is studied across all sites. The corresponding circuit is also simulated on an IBM quantum computer.
 5. **Parametric study** - study on influence of number of trotter steps and number of qubits for XX chain simulation on a quantum computer. Results show that accuracy improves with lower number of trotter steps (lower circuit depth) and less number of particles (lower qubits).
 6. **Disordered XX chain** - Studied the case when U = 0 in hamiltonian. Compared simulation results for various values of h which is a measure of disorder in the system.
-7. **XXZ chain*** - Studied the case when h = 0 in hamiltonian. Compared simulation results for various values of U.
+7. **XXZ chain** - Studied the case when h = 0 in hamiltonian. Compared simulation results for various values of U.
 
 # Results
 
